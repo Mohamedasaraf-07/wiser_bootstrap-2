@@ -1,12 +1,20 @@
-.img{
+@font-face{
+    font-family: "asaraf";
+    src: url(../asste/Roboto/Roboto-Italic.ttf);
+}
+body{
+    font-family: "asaraf";
+}
 
-        background-image: url("../asste/pro2.jpg");
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-position: center center;
-        background-size: cover;
-        height: 100vb;
-    }
+
+.img{
+    background-image: url("../asste/pro2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vb;
+}
 .p{
     height: 100vh;
     align-items: center;
@@ -16,6 +24,9 @@
     font-weight: 600;
     text-transform: uppercase;
     
+}
+.fonds{
+    font-family: Fantasy;
 }
 .wel{
     font-family: initial;
@@ -61,4 +72,17 @@
 }
 .ho:hover{
     color: yellow !important;
+}
+.con{
+    border-radius: 50%;
+    border: 1px solid rgb(223, 223, 210);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+.con:hover{
+     transform: rotate(360deg);
+     background-color: white;
+     color: white;
 }
