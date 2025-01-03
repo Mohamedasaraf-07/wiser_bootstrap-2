@@ -6,22 +6,21 @@ body{
     font-family: "asaraf";
 }
 
-
 .img{
     background-image: url("../asste/pro2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    height: 100vb;
+   
 }
 .p{
     height: 100vh;
     align-items: center;
 }
 .nice{
-    font-size: 55px;
-    font-weight: 600;
+    font-size: 65px;
+    font-weight: bold;
     text-transform: uppercase;
     
 }
@@ -53,7 +52,7 @@ body{
     border-radius: 100%;
     background-color: #ffc800;
 }
-.hh{
+.hh{    
     width: 10px;
     height:10px;
     padding: 8px;
@@ -65,8 +64,8 @@ body{
     width: 100%;
 }
 .img2{
-    background-color: #212529;
-    background-image: url("../asste/map-image.png");
+    background-color: #1b1c1d;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -85,4 +84,53 @@ body{
      transform: rotate(360deg);
      background-color: white;
      color: white;
+    
+}
+
+
+.wh{
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: unset;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+
+  }
+  .wh:hover{
+    color: white;
+    background: linear-gradient(to left,black 50%,yellow 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all 1s ease;
+  } 
+  input{
+    color: white  !important;
+  }
+textarea{
+    background-color: #1b1c1d  !important;
+}
+  ::placeholder{
+    color: white !important;
+  }
+  .hov{
+    border: none;
+    outline: none;
+    border-radius: 0 10px 0 10px;
+}
+
+.active,
+.hov:hover:hover{
+    background-color: #ffc800;
+    color: black;
+}
+@media (max-width:576px) {
+    .madia{
+        text-align: center;
+        width: 80%;
+    }
+    .nice{
+        font-size: 25px;
+    }
 }
