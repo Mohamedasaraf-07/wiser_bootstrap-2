@@ -7,7 +7,7 @@ body{
 }
 
 .img{
-    background-image: url("./asste/pro2.jpg");
+    background-image: url("/asste/pro2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -65,7 +65,7 @@ body{
 }
 .img2{
     background-color: #1b1c1d;
-    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/`/img/map-image.png") !important;
     background-repeat: no-repeat;
     background-position: center;
 }
